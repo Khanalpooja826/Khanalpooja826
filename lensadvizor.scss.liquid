@@ -1,0 +1,437 @@
+/* Button css Start */
+.la-select-lenses-btn {
+    font-weight: 600;
+    display: none;
+    border: 0 !important;
+    outline: 0 !important;
+    width: 100%;
+    padding: 12px;
+    border-radius:5px;
+    /*font-size: 16px;*/
+    &:focus {
+        outline: 0 !important;
+    }
+}
+.product-form__item .shopify-payment-button { display: none; }
+/* Button css Close */
+
+/* Choose Your Prescription Type Css Strat */
+.la-modal-wrapper *:not(.fa) { font-family: Helvetica !important; font-style: unset; }
+.la-modal-wrapper .la-modal .prescription-modal { max-width: 100%; margin: 0; }
+.la-modal-wrapper .prescription-modal .prescription-modal-content .row {
+   margin: 0px;
+  
+  .la-modal-columns {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    position: relative;
+    
+    .product-title-below-modal-image {
+      position: absolute !important;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: transparent !important;
+      display: block;
+      padding: 10px;
+      padding-bottom: 20px;
+      
+      p {
+        text-align: center;
+        margin: 0px;
+        font-size: 16px;
+        color: #212529;
+        padding: 0px 3px;
+      }
+    }
+
+    .banner-image-container {
+      width: 100%;
+      height: 100vh;
+      margin-top: 0px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}
+.la-modal-wrapper .prescription-modal .prescription-modal-content .row #la-modal-columns-box-shadow {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    box-shadow: 0px 0px 99px #0000000f;
+  
+  .prescription-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    overflow-y: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: unset;
+    
+    .header {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      box-shadow: 0px 3px 6px #0000000d;
+      background-color: #fff;
+      z-index: 1;
+      
+      .la-error-popdown  {
+        display: none; 
+      }
+      
+      button.close {
+        position: absolute;
+        top: 7px;
+        right: 15px;
+        z-index: 100;
+        font-size: 34px !important;
+        font-weight: 100 !important;
+        float: right;
+        cursor: pointer;
+        line-height: 1;
+        color: #000;
+        text-shadow: 0 1px 0 #fff;
+        opacity: .5;
+      }
+      
+      .back-button {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        width: auto;
+        height: 20px;
+        cursor: pointer;
+        
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      
+      ul.la-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      li {
+        margin: 0px 4px;
+        
+        .la-nav-link {
+          width: 7px;
+          height: 7px;
+          padding: 0px !important;
+          background-color: #000;
+          border-radius: 50%;
+          transition: all 0.2s;
+          display: block;
+        }
+        .la-nav-link.active {
+          width: 12px;
+          height: 12px;
+        }
+        .la-nav-link.complete {
+           background-color: rgb(56, 180, 255);
+        }
+        
+      }
+    }
+  }
+}
+.la-modal-wrapper .prescription-modal .tab-heading {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+  
+   p {
+     margin: 0px; 
+   }
+}
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane {
+   padding: 0px 40px; 
+  
+    input {
+      display: none;  
+    }
+  
+    h6 {
+      margin: 0px;
+      font-size: 16px;
+      text-transform: capitalize; 
+    }
+}
+.la-modal-wrapper .prescription-upload .image-container, .la-modal-wrapper .choose-file-image-container {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border: 1px solid #DFE3E8;
+    border-radius: 4px;
+    padding: 5px;
+    line-height: 1;
+  
+   img {
+     width: 100%;
+     height: 100%;
+     line-height: 1;
+   }
+}
+.la-modal-wrapper .select-prescription-container, .la-modal-wrapper .add-prescription-container { margin-bottom: 10px; }
+.la-modal-wrapper .prescription-type label, .la-modal-wrapper .prescription-upload label, .la-modal-wrapper .la_choose-options-container .la-each-card-carousel label, .la-modal-wrapper .prescription-choose-lens .form-check-label, .la-modal-wrapper #label-prescription-upload, .la-modal-wrapper #prescription_upload_manually_wrapper label {
+    width: 100%;
+    padding: 15px 35px;
+    border: 1px solid #DFE3E8;
+    transition: all 0.3s;
+    border-radius: 4px;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+  
+    p {
+      margin: 0px;
+      text-align: center;
+      color: #858585;
+      font-size: 14px; 
+    }
+
+    &:hover {
+      background-color: #fafafb;
+      border: 1px solid rgb(56, 180, 255);
+    }
+}
+
+/* Choose Your Prescription Type Css Close */
+
+/* Upload Prescription Css Start*/
+.la-modal-wrapper .prescription-modal .prescription-body .od-left-container, .la-modal-wrapper .prescription-modal .prescription-body .od-right-container, .la-modal-wrapper .prescription-modal .prescription-body .la-option-carousel-container {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #DFE3E8;
+    margin-bottom: 25px;
+  
+   .error-file {
+     display: none; 
+   }
+  
+   h6.text-left {
+      margin-bottom: 15px; 
+   }
+}
+.la-modal-wrapper .od-dropdown select { padding-right: 30px; background: url(https://cdn.shopify.com/s/files/1/0341/4907/3029/files/Down_arrow.svg?v=1592472800) !important; background-repeat: no-repeat !important; background-position: right 13px center !important; border-radius: 3px; } 
+.la-modal-wrapper .la_Rx_od-left { display: inline-block; margin-bottom: 10px; }
+.la-modal-wrapper .la_Rx_od-left .form-check { padding-left: 0; margin-bottom: 10px; display: inline-flex; position: relative; }
+.la-modal-wrapper .la_Rx_od-left .la_Rx_od_upload_dual_wrapper { margin-left: 20px; }
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .upload-manual-option .form-check {
+
+  input {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 3px;
+  }
+  
+  label {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+}
+.la-modal-wrapper .la-add-to-cart, .la-modal-wrapper .save-continue {
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+    padding: 16px;
+    margin: 30px 0px;
+    cursor: pointer;
+  
+    p {
+      margin: 0px; 
+    }
+}
+/* Upload Prescription Css Close*/
+
+/* Enter Your Prescription Manually Css Start*/
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .upload-manual-option .od-left-container { border: 0; }
+.la-modal-wrapper .manual-option .od-left, .la-modal-wrapper .manual-option .od-right, .la-modal-wrapper .upload-manual-option .od-left, .la-modal-wrapper .upload-manual-option-segment-height .od-left, .la-modal-wrapper .upload-manual-option .od-right, .la-modal-wrapper .upload-manual-option-segment-height .od-right { display: flex; justify-content: flex-start; flex-wrap: wrap; } 
+.la-modal-wrapper .od-left-pd--modifier .od-dropdown, .la-modal-wrapper .od-left-pd-on-upload--modifier .od-dropdown { margin-right: 4% !important; } 
+.la-modal-wrapper .od-dropdown-text { margin-bottom: 5px; line-height: 1.5; font-size: 13px; } 
+.la-modal-wrapper .prescription-modal .prescription-body #add_prescription_method .manual-option .od-right { margin-bottom: 20px; } 
+.la-modal-wrapper .prescription-modal .prescription-body #add_prescription_method .manual-option .od-left { margin-bottom: 0px; } 
+.la-modal-wrapper input[disabled], .la-modal-wrapper textarea[disabled], .la-modal-wrapper select[disabled], .disclosure__toggle[disabled] { background-color: #fff; border-color: #cccccc; color: #000; }
+.la-modal-wrapper .prescription-modal .manual-option .od-left-container .error-file-manually { display: none; }
+.la-modal-wrapper .prescription-modal .manual-option #prescription_upload_manually_wrapper { border: 0; padding-bottom: 0px; margin-bottom: 35px; }
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .manual-option .form-check input { display: inline-block; margin-left: 0px; margin-top: 3px; }
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .manual-option .form-check label.form-check-label { margin-left: 20px; font-size: 13px; }
+.la-modal-wrapper .manual-option .od-left, .la-modal-wrapper .manual-option .od-right, .la-modal-wrapper .upload-manual-option .od-left, .la-modal-wrapper .upload-manual-option-segment-height .od-left, .la-modal-wrapper .upload-manual-option .od-right, .la-modal-wrapper .upload-manual-option-segment-height .od-right { padding-top: 3px; }
+/* Enter Your Prescription Manually Css Close*/
+
+
+
+/* Choose Your Lenses Css Start */
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .form-check {
+  padding-left: 0px;
+  margin-bottom: 8px;
+  
+  input { 
+    display: none; 
+  }
+  
+  label.la-label_button {
+    margin-left: 0px;
+    font-size: 16px;
+    
+    .radio-pricing {
+      color: #858585;
+      font-size: 14px;
+    }
+    
+    .la-lens-image-container {
+      display: none; 
+    }
+  }
+}
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .choose-lens-card {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #DFE3E8;
+  margin-bottom: 30px;
+  
+  h6 {
+      margin-bottom: 15px;
+  }
+}
+.la-modal-wrapper .prescription-modal .prescription-body #choose_lens p.tab-subheading { margin: 0px; }
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .choose-lens-card:last-of-type { border: 0; }
+/* Choose Your Lenses Css Close */
+
+/* Please Review Your Order Css Start */
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .review-item {
+  width: 100%;
+  
+  .review-left {
+    float: left;
+    width: 70%;
+    text-align: left;
+    
+    .review-item-title {
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 5px;
+    }
+    
+    .review-item-variant {
+      color: #858585;
+    }
+  }
+  
+  .review-right {
+    float: right;
+    width: 25%;
+    text-align: right;
+  }
+  
+  .la_Rx_clear {
+    clear: both;
+  }
+}
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .review-text { font-size: 16px; font-weight: bold; margin-bottom: 5px; }
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane textarea.order-notes { width: 100%; }
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .subtotal #la_review_subtotal_label, .la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .subtotal span#reivew-subtotal { padding: 0px; font-weight: bold; }
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .save-continue p { font-weight: bold; }
+.la-modal-wrapper #review_selection hr { margin-top: 1.5rem; margin-bottom: 1.5rem; margin-left: 0px; margin-right: 0px; }
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .subtotal .col.text-right { padding: 0px; }
+/* Please Review Your Order Css Close */
+
+
+/* Select Lens Options For Pooja Clear Lens 2 (Variants) Css Start */
+.la-modal-wrapper .prescription-modal .prescription-body .la-option-carousel-container .la-carousel-heading {margin-bottom: 15px; }
+.la-modal-wrapper .prescription-modal .prescription-body #choose_options .subtotal #la_choose-options_subtotal_label, .la-modal-wrapper .prescription-modal .prescription-body #choose_options .subtotal #choose_options-subtotal { font-weight: bold; }
+.la-modal-wrapper .prescription-modal .prescription-body #choose_options .subtotal .row div { padding: 0px; }
+.la-modal-wrapper .prescription-modal .prescription-body #choose_options button.la-add-to-cart.save-continue { width: 100%; border: 0; font-weight: bold; }
+/* Select Lens Options For Pooja Clear Lens 2 (Variants) Css Close */
+
+/* Choose Accessory Css Start */
+.la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .la_choose-addons-container label.la-label_button {
+  width: 100%; 
+  display: flex; 
+  padding: 0.5rem; 
+  margin-bottom: 0.7rem !important; 
+  border: 1px solid #dfe3e8; 
+  transition: all .3s; 
+  border-radius: 4px; 
+  font-size: 16px; 
+  text-align: center; 
+  cursor: pointer; 
+  align-items: center; 
+  
+  .la-add-on-image-container {
+    width: 110px;
+  }
+  
+  .la-add-on-title {
+    width: calc(100% - 110px);
+    padding: 0 0 0 0.5rem;
+    
+    .radio-pricing {
+      color: #212529;
+    }
+    
+    .la-add-on-description {
+      text-align: center;
+      color: #858585;
+      font-size: 13px;
+    }
+  }
+}
+.la-modal-wrapper .prescription-modal .prescription-body #choose_addons .la_choose-addons-container a.la-skip-add-on { display: block; text-align: center; margin: 30px 0 5px 0; cursor: pointer; }
+.la-modal-wrapper .prescription-modal .prescription-body #choose_addons .la_choose-addons-container .la-skip-button-description { text-align: center; margin: 0px 0 30px 0; display: block; font-size: 13px; color: #858585; }
+/* Choose Accessory Css Close */
+
+
+/* Media Query */
+@media only screen and (min-width: 1200px) {
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row #la-modal-columns-box-shadow .prescription-body .header { position: static; box-shadow: none; } 
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row #la-modal-columns-box-shadow .prescription-body .header button.close { top: 20px; right: 40px; } 
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row #la-modal-columns-box-shadow .prescription-body .header .back-button { top: 28px; left: 40px; } 
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row #la-modal-columns-box-shadow .prescription-body .header ul.la-nav { height: 80px; } 
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row #la-modal-columns-box-shadow .prescription-body .header ul.la-nav li { margin: 0px 9px; } 
+  .la-modal-wrapper .manual-option .od-left .od-dropdown, .la-modal-wrapper .manual-option .od-right .od-dropdown, .la-modal-wrapper .upload-manual-option .od-left .od-dropdown, .la-modal-wrapper .upload-manual-option .od-right .od-dropdown, .la-modal-wrapper .upload-manual-option-segment-height .od-right, .la-modal-wrapper .upload-manual-option-segment-height .od-left { width: 22%; } 
+  .la-modal-wrapper .manual-option .od-left .od-dropdown, .la-modal-wrapper .manual-option .od-right .od-dropdown, .la-modal-wrapper .upload-manual-option .od-left .od-dropdown, .la-modal-wrapper .upload-manual-option .od-right .od-dropdown, .la-modal-wrapper .upload-manual-option-segment-height .od-right, .la-modal-wrapper .upload-manual-option-segment-height .od-left { margin-right: 16px; }
+}
+
+@media only screen and (max-width: 767px) {
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row .la-modal-columns { -webkit-box-flex: 0; -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; } 
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row #la-modal-columns-box-shadow { -webkit-box-flex: 0; -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; } 
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row .la-modal-columns .banner-image-container { height: auto; margin-top: 54px; } 
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row #la-modal-columns-box-shadow .prescription-body .header ul.la-nav { height: 54px; } 
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row .la-modal-columns .product-title-below-modal-image { left: unset; bottom: unset; position: relative!important; padding: 10px 20px; } 
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row .la-modal-columns .product-title-below-modal-image p#selected_variant_title { font-size: 10px; } 
+  .la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane { padding: 0px 15px; } 
+  .la-modal-wrapper .prescription-modal .tab-heading { font-size: 18px; padding: 35px 0px; } 
+  .la-modal-wrapper .prescription-modal .prescription-body .la-tab-pane .review-item .review-left { width: 100%; } 
+  .la-iso-bootstrap .la-modal.show .la-modal-dialog .prescription-modal-content { border: 0; height: 100%; } 
+  #LensAdvizorModalWrapper .la-modal { overflow: scroll; } 
+  .la-modal-wrapper .prescription-modal .prescription-modal-content .row #la-modal-columns-box-shadow .prescription-body { overflow: hidden; height: auto; background-color: #fff; } 
+  .la-modal-wrapper .prescription-modal .prescription-body #add_prescription_method .manual-option .od-dropdown { margin-right: 10px; }
+}
